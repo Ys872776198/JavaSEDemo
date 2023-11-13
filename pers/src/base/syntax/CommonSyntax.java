@@ -1,4 +1,4 @@
-package pers.base.syntax;
+package base.syntax;
 
 import java.util.Arrays;
 
