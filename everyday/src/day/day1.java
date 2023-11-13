@@ -18,24 +18,36 @@ public class day1 {
 //        int a = new Scanner(System.in).nextInt();
 
 //        猜数游戏（20---80）
-        Random r = new Random();
-        int i = (r.nextInt(60) + 20);
-        System.out.println("请输入一个数：");
-        int a = new Scanner(System.in).nextInt();
+//
+//        Random r = new Random();
+//        int i = (r.nextInt(60) + 20);
+//        System.out.println("请输入一个数：");
+//        int a = new Scanner(System.in).nextInt();
+//
+//        while(true){
+//            if(i == a){
+//                System.out.println("你猜对了！");
+//                break;
+//            }else if(i < a){
+//                System.out.println("猜大了，请输入一个数：");
+//                a = new Scanner(System.in).nextInt();
+//            }else if(i > a){
+//                System.out.println("猜小了，请输入一个数：");
+//                a = new Scanner(System.in).nextInt();
+//            }
+//        }
 
-        while(true){
-            if(i == a){
-                System.out.println("你猜对了！");
-                break;
-            }else if(i < a){
-                System.out.println("猜大了，请输入一个数：");
-                a = new Scanner(System.in).nextInt();
-            }else if(i > a){
-                System.out.println("猜小了，请输入一个数：");
-                a = new Scanner(System.in).nextInt();
+        for(int i = 0; i < 5; i++){
+
+            if(i == 2){
+                continue;
+            }else {
+//                do nothing
             }
-        }
 
+            System.out.println(i);
+
+        }
 
     }
 }
