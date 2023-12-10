@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="867581e1-37b5-4452-b5d0-09b73eb801b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everyday/src/day/day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/everyday/src/day/day1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/everyday/day/day1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/everyday/day/day1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.day1">
+  <component name="RunManager" selected="Application.day2">
     <configuration name="CommonSyntax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.base.syntax.CommonSyntax" />
       <module name="pers" />
@@ -70,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day.day2" />
+      <module name="everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day2" />
         <item itemvalue="Application.day1" />
         <item itemvalue="Application.CommonSyntax" />
       </list>
@@ -103,6 +116,7 @@
       <workItem from="1700647568921" duration="13046000" />
       <workItem from="1700747280435" duration="1299000" />
       <workItem from="1700751413783" duration="54000" />
+      <workItem from="1702196802363" duration="5636000" />
     </task>
     <servers />
   </component>
@@ -110,26 +124,26 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1700747745429">
+    <state x="526" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1702198855062">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="526" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1700747745429" />
-    <state width="1397" height="300" key="GridCell.Tab.0.bottom" timestamp="1700666906590">
+    <state x="526" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1702198855062" />
+    <state width="1397" height="244" key="GridCell.Tab.0.bottom" timestamp="1702208176533">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1700666906590" />
-    <state width="1397" height="300" key="GridCell.Tab.0.center" timestamp="1700666906590">
+    <state width="1397" height="244" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1702208176533" />
+    <state width="1397" height="244" key="GridCell.Tab.0.center" timestamp="1702208176533">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1700666906590" />
-    <state width="1397" height="300" key="GridCell.Tab.0.left" timestamp="1700666906590">
+    <state width="1397" height="244" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1702208176533" />
+    <state width="1397" height="244" key="GridCell.Tab.0.left" timestamp="1702208176533">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1700666906590" />
-    <state width="1397" height="300" key="GridCell.Tab.0.right" timestamp="1700666906590">
+    <state width="1397" height="244" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1702208176533" />
+    <state width="1397" height="244" key="GridCell.Tab.0.right" timestamp="1702208176533">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1700666906590" />
+    <state width="1397" height="244" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1702208176533" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1700666906590">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
