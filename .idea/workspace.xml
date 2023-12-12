@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="867581e1-37b5-4452-b5d0-09b73eb801b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everyday/src/day/day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/everyday/src/day/day2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/everyday/src/dayclass/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/everyday/src/dayclass/ATM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +139,7 @@
       <workItem from="1702302069835" duration="9540000" />
       <workItem from="1702354300139" duration="702000" />
       <workItem from="1702355385143" duration="2913000" />
+      <workItem from="1702379991562" duration="7276000" />
     </task>
     <servers />
   </component>
@@ -150,22 +151,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="526" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1702304396880" />
-    <state width="1397" height="244" key="GridCell.Tab.0.bottom" timestamp="1702359217530">
+    <state width="1397" height="170" key="GridCell.Tab.0.bottom" timestamp="1702387337628">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1702359217530" />
-    <state width="1397" height="244" key="GridCell.Tab.0.center" timestamp="1702359217530">
+    <state width="1397" height="170" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1702387337628" />
+    <state width="1397" height="170" key="GridCell.Tab.0.center" timestamp="1702387337628">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1702359217530" />
-    <state width="1397" height="244" key="GridCell.Tab.0.left" timestamp="1702359217530">
+    <state width="1397" height="170" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1702387337628" />
+    <state width="1397" height="170" key="GridCell.Tab.0.left" timestamp="1702387337628">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1702359217530" />
-    <state width="1397" height="244" key="GridCell.Tab.0.right" timestamp="1702359217530">
+    <state width="1397" height="170" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1702387337628" />
+    <state width="1397" height="170" key="GridCell.Tab.0.right" timestamp="1702387337628">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="244" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1702359217530" />
+    <state width="1397" height="170" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1702387337628" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1702311192633">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -198,9 +199,9 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1700648461740" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1702355558078">
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1702385256950">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1702355558078" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1702385256950" />
   </component>
 </project>
