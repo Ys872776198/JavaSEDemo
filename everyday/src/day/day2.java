@@ -17,7 +17,7 @@ public class day2 {
         Movies m1 = new Movies(1, "头号玩家", 122.11);
         Movies m2 = new Movies(2, "流浪地球", 232.23);
         Movies m3 = new Movies(3, "让子弹飞", 454.23);
-
+        
         Movies[] movies = {m1, m2, m3};
 
         //创造电影信息对象
