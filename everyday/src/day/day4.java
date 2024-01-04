@@ -10,6 +10,11 @@ import dayclass.Account;
  */
 public class day4 {
     //    start
+
+    public static void main(String[] args) {
+       
+    }
+
     //    end
 
     //    start
