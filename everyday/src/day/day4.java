@@ -2,6 +2,7 @@ package day;
 
 import dayclass.Day4Menu;
 import dayclass.Day4_test;
+import dayclass.test1;
 import dayinterface.Day4Sex;
 import dayinterface.Day4_test1;
 
@@ -20,7 +21,7 @@ public class day4 {
 //        System.out.println(Day4_test1.a);
 //        System.out.println("-------------");
 //
-////        2、利用 实现类。常量名
+////        2、利用 实现类对象名。常量名
 //        Day4_test da = new Day4_test();
 //        System.out.println(da.a);
 //        System.out.println("------------------");
@@ -58,27 +59,31 @@ public class day4 {
     //    end
 
     //    start
-    public static void main(String[] args) {
-        cheak(Day4Sex.Boy);    //此刻要传入的是枚举类型的对象，枚举是最简单的单例设计模式，可以用 枚举类名。常量名称
-    }
-
-    public static void cheak(Day4Sex sex){
-        switch(sex){
-            case Boy:
-                System.out.println("我是男生");
-                break;
-            case Girl:
-                System.out.println("我是女生");
-                break;
-            default:
-                break;
-        }
-
-    }
+//    public static void main(String[] args) {
+//        cheak(Day4Sex.Boy);    //此刻要传入的是枚举类型的对象，枚举是最简单的单例设计模式，可以用 枚举类名。常量名称
+//    }
+//
+//    public static void cheak(Day4Sex sex){
+//        switch(sex){
+//            case Boy:
+//                System.out.println("我是男生");
+//                break;
+//            case Girl:
+//                System.out.println("我是女生");
+//                break;
+//            default:
+//                break;
+//        }
+//
+//    }
 
     //    end
 
     //    start
+//    1、测试饿汉和懒汉式单例设计模式
+    public static void main(String[] args) {
+        test1 t = test1.getTest1();
+    }
     //    end
 
     //    start
