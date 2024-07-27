@@ -1,5 +1,6 @@
 package day;
 
+import com.sun.org.apache.xpath.internal.operations.String;
 import dayclass.Day4Menu;
 import dayclass.Day4_test;
 import dayclass.test1;
@@ -80,10 +81,10 @@ public class day4 {
     //    end
 
     //    start
-//    1、测试饿汉和懒汉式单例设计模式
-    public static void main(String[] args) {
-        test1 t = test1.getTest1();
-    }
+////    1、测试饿汉和懒汉式单例设计模式
+//    public static void main(String[] args) {
+//        test1 t = test1.getTest1();
+//    }
     //    end
 
     //    start
