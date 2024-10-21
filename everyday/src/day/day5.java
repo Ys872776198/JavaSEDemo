@@ -1,5 +1,6 @@
 package day;
 
+import com.sun.imageio.spi.RAFImageInputStreamSpi;
 import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 import java.util.Random;
@@ -104,6 +105,17 @@ public class day5 {
     //    end
 
     //    start
+//    public static void main(String[] args) {
+//        int a = 3;
+//        char b = 'd';
+//        String s = "" + a + b;
+//        System.out.println(s);
+//    }
+
+    //    end
+
+    //    start
+
     //    end
 
     //    start
@@ -115,4 +127,15 @@ public class day5 {
     //    start
     //    end
 
+    //    start
+    //    end
+
+    //    start
+    //    end
+
+    //    start
+    //    end
+
+    //    start
+    //    end
 }
