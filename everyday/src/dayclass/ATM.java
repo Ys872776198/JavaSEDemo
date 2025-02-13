@@ -33,8 +33,8 @@ public class ATM {
     }
 
     //开始菜单界面
-    public void atmMenu(){
-        while (true){
+    public void atmMenu() {
+        while (true) {
             System.out.println("欢迎进入ATM系统：--------");
             System.out.println("菜单：");
             System.out.println("1、用户登录");
@@ -44,12 +44,14 @@ public class ATM {
 
             int i = new Scanner(System.in).nextInt();
 
-            switch (i){
-                case 1 : userLogin();
+            switch (i) {
+                case 1:
+                    userLogin();
                     break;
-                case 2 : reqUser();
+                case 2:
+                    reqUser();
                     break;
-                case 3 :
+                case 3:
                     return;
                 default:
                     return;
@@ -59,18 +61,18 @@ public class ATM {
     }
 
     //检测是否存在用户
-    public void detectUser(){
+    public void detectUser() {
         //判断用户有无
-        if(userList.isEmpty()){
+        if (userList.isEmpty()) {
             System.out.println("当前系统无用户------------");
             atmMenu();
-        }else{
+        } else {
 //            no thing
         }
     }
 
     //开户系统
-    public void reqUser(){
+    public void reqUser() {
         System.out.println("------欢迎开户------");
         Account ac = new Account();
 
@@ -86,9 +88,9 @@ public class ATM {
         System.out.println("请输入用户性别：");
         String sex = sc.next();
         sex = userSexYanZheng(sex, sc);
-        if(sex == null){
+        if (sex == null) {
             return;
-        }else{
+        } else {
 //            no thing
         }
 
@@ -103,18 +105,18 @@ public class ATM {
 
         System.out.println("------开户成功------");
         System.out.println("用户名：" + userName + "\n" + "性别：" + sex + "\n"
-                +  "卡号：" + cardId + "\n" +  "用户余额：" + money + "\n" +  "取款限额：" + limitMoney);
+                + "卡号：" + cardId + "\n" + "用户余额：" + money + "\n" + "取款限额：" + limitMoney);
 
     }
 
     //密码验证
-    public double verifyPassWord(double password, Scanner sc){
-        for (int i = 0; i < 3 ; i++) {
+    public double verifyPassWord(double password, Scanner sc) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("验证密码，请第二次输入密码：");
             double v = sc.nextDouble();
-            if(v == password){
+            if (v == password) {
                 break;
-            }else {
+            } else {
                 System.out.println("验证密码错误，请重新输入密码：");
             }
         }
@@ -122,11 +124,11 @@ public class ATM {
     }
 
     //性别验证
-    public String userSexYanZheng(String sex, Scanner sc){
+    public String userSexYanZheng(String sex, Scanner sc) {
         for (int i = 0; i < 3; i++) {
-            if((sex.equals("男")) || (sex.equals("女"))){
+            if ((sex.equals("男")) || (sex.equals("女"))) {
                 return sex;
-            }else{
+            } else {
                 System.out.println("性别异常，请重新输入性别：");
                 sex = sc.next();
             }
@@ -136,7 +138,7 @@ public class ATM {
 
 
     //创造卡号
-    public String creatCardId(){
+    public String creatCardId() {
         String s = "";
         for (int i = 0; i < 8; i++) {
             int a = new Random().nextInt(10);
@@ -145,10 +147,10 @@ public class ATM {
 
         //判断卡号是否重复
         Iterator<Account> it = userList.iterator();
-        while(it.hasNext()){
-            if(s.equals(it.next().getCardId())){
+        while (it.hasNext()) {
+            if (s.equals(it.next().getCardId())) {
                 s = creatCardId();
-            }else{
+            } else {
                 break;
             }
         }
@@ -156,7 +158,7 @@ public class ATM {
     }
 
     //用户登录
-    public void userLogin(){
+    public void userLogin() {
         //验证是否存在用户
         detectUser();
 
@@ -166,18 +168,18 @@ public class ATM {
 
             Account acc = getAccByCardId(cardId);
 
-            if (acc != null){
+            if (acc != null) {
                 System.out.println("请输入密码：");
                 double miMa = new Scanner(System.in).nextDouble();
-                if (miMa == acc.getPassWord()){
+                if (miMa == acc.getPassWord()) {
                     //登录成功
                     login(acc);
                     return;
-                }else{
+                } else {
                     //登录失败
                     System.out.println("密码错误");
                 }
-            }else{
+            } else {
                 //登录失败
                 System.out.println("用户不存在，请重新输入卡号");
             }
@@ -208,12 +210,12 @@ public class ATM {
     }
 
     //根据卡号搜索用户
-    public Account getAccByCardId(String cardId){
+    public Account getAccByCardId(String cardId) {
 
         for (int i = 0; i < userList.size(); i++) {
-            if(cardId.equals(userList.get(i).getCardId())){
+            if (cardId.equals(userList.get(i).getCardId())) {
                 return userList.get(i);
-            }else {
+            } else {
 //                no thing
             }
         }
@@ -222,8 +224,8 @@ public class ATM {
     }
 
     //登录成功的界面
-    public void login(Account acc){
-        while(true){
+    public void login(Account acc) {
+        while (true) {
             System.out.println("------欢迎" + acc.getUserName() + "使用ATM系统------");
 
             System.out.println("1、查询账户");
@@ -237,27 +239,33 @@ public class ATM {
 
             int i = new Scanner(System.in).nextInt();
 
-            switch (i){
+            switch (i) {
                 //查询账户
-                case 1 : showUser(acc);
+                case 1:
+                    showUser(acc);
                     break;
                 //存款
-                case 2 : saveMoney(acc);
+                case 2:
+                    saveMoney(acc);
                     break;
                 //取款
-                case 3 : takeMoney(acc);
+                case 3:
+                    takeMoney(acc);
                     break;
                 //转账
-                case 4 : transferMoney(acc);
+                case 4:
+                    transferMoney(acc);
                     break;
                 //修改密码
-                case 5 : modifyPassWord(acc);
+                case 5:
+                    modifyPassWord(acc);
                     break;
                 //退出
-                case 6 :
+                case 6:
                     return;
                 //注销账号
-                case 7 : deleteUser(acc);
+                case 7:
+                    deleteUser(acc);
                     return;
                 default:
                     break;
@@ -267,7 +275,7 @@ public class ATM {
     }
 
     //查询账号
-    public void showUser(Account acc){
+    public void showUser(Account acc) {
         System.out.println("用户名：" + acc.getUserName());
         System.out.println("卡号：" + acc.getCardId());
         System.out.println("性别：" + acc.getSex());
@@ -276,7 +284,7 @@ public class ATM {
     }
 
     //存款
-    public void saveMoney(Account acc){
+    public void saveMoney(Account acc) {
         System.out.println("请输入存款数量：");
         double money = new Scanner(System.in).nextDouble();
 
@@ -288,15 +296,15 @@ public class ATM {
     }
 
     //取款
-    public void takeMoney(Account acc){
+    public void takeMoney(Account acc) {
         System.out.println("请输入取款数量：");
         double money = new Scanner(System.in).nextDouble();
 
-        if (money > acc.getMoney()){
+        if (money > acc.getMoney()) {
             System.out.println("余额不足");
-        }else if(money > acc.getLimitMoney()){
+        } else if (money > acc.getLimitMoney()) {
             System.out.println("取款数量超过限额");
-        }else {
+        } else {
             acc.setMoney((acc.getMoney() - money));
 
             System.out.println("成功取出" + money + "元");
@@ -305,25 +313,25 @@ public class ATM {
     }
 
     //转账
-    public void transferMoney(Account acc){
+    public void transferMoney(Account acc) {
         //输入收款方卡号
         System.out.println("请输入收款方卡号：");
         String cardId = new Scanner(System.in).next();
         Account otherAcc = getAccByCardId(cardId);
 
         //检测卡号是否有误或者是否存在
-        if (otherAcc != null){
+        if (otherAcc != null) {
             //如果卡号存在
-                //判断自己卡号是否有钱
-            if (acc.getMoney() > 0){
+            //判断自己卡号是否有钱
+            if (acc.getMoney() > 0) {
 
                 //判断转账金额是否超过存款
                 System.out.println("请输入转账金额：");
                 double money = new Scanner(System.in).nextDouble();
-                if (money <= acc.getMoney()){
+                if (money <= acc.getMoney()) {
 
                     //判断转账金额是否超过限额
-                    if(money <= acc.getLimitMoney()){
+                    if (money <= acc.getLimitMoney()) {
 
                         //转账成功
                         acc.setMoney((acc.getMoney() - money));
@@ -336,22 +344,20 @@ public class ATM {
                         System.out.println("成功收取" + money + "元");
                         System.out.println("当前余额" + otherAcc.getMoney() + "元");
 
-                    }else{
+                    } else {
                         System.out.println("转账金额超过限额");
                     }
-                }else {
+                } else {
                     System.out.println("转账金额超过存款");
                 }
-            }else {
+            } else {
                 System.out.println("卡里没钱");
             }
 
 
-
-
 //            login(acc);
 //            return;
-        }else{
+        } else {
 //                检测失败
             System.out.println("用户不存在或者卡号错误！");
         }
@@ -363,7 +369,7 @@ public class ATM {
     }
 
     //修改密码
-    public void modifyPassWord(Account acc){
+    public void modifyPassWord(Account acc) {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入旧密码：");
         double oldPassWord = sc.nextDouble();
@@ -373,18 +379,18 @@ public class ATM {
 
         acc.setPassWord(newPassWord);
 
-        if(newPassWord == acc.getPassWord()){
+        if (newPassWord == acc.getPassWord()) {
             System.out.println("修改成功");
-        }else{
+        } else {
             System.out.println("密码修改失败");
         }
     }
 
     //注销账号
-    public void deleteUser(Account acc){
+    public void deleteUser(Account acc) {
         if (userList.remove(acc)) {
             System.out.println("注销成功");
-        }else {
+        } else {
             System.out.println("注销失败");
         }
     }

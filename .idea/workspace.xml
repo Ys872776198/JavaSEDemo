@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="867581e1-37b5-4452-b5d0-09b73eb801b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everyday/src/day/day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/everyday/src/day/day5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/everyday/src/day/day6.java" beforeDir="false" afterPath="$PROJECT_DIR$/everyday/src/day/day6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/everyday/src/dayclass/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/everyday/src/dayclass/ATM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/everyday/day/day5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/everyday/day/day5.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +47,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.day5">
-    <configuration name="day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day.day1" />
-      <module name="everyday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.day6">
     <configuration name="day2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day.day2" />
       <module name="everyday" />
@@ -112,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day.day6" />
+      <module name="everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day6" />
         <item itemvalue="Application.day5" />
         <item itemvalue="Application.day3" />
         <item itemvalue="Application.day4" />
         <item itemvalue="Application.day2" />
-        <item itemvalue="Application.day1" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +196,20 @@
       <workItem from="1726632149850" duration="18000" />
       <workItem from="1727057744166" duration="1258000" />
       <workItem from="1727257158067" duration="704000" />
-      <workItem from="1729481834454" duration="658000" />
+      <workItem from="1729481834454" duration="1964000" />
+      <workItem from="1729590169532" duration="2076000" />
+      <workItem from="1730294127156" duration="68000" />
+      <workItem from="1731483368795" duration="1843000" />
+      <workItem from="1731571793250" duration="600000" />
+      <workItem from="1738769902869" duration="254000" />
+      <workItem from="1738770193518" duration="18000" />
+      <workItem from="1738807078232" duration="591000" />
+      <workItem from="1738811778161" duration="680000" />
+      <workItem from="1738828562110" duration="2085000" />
+      <workItem from="1738893941367" duration="3166000" />
+      <workItem from="1739003495665" duration="731000" />
+      <workItem from="1739174301406" duration="2837000" />
+      <workItem from="1739411426351" duration="1813000" />
     </task>
     <servers />
   </component>
@@ -203,57 +217,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="487" y="0" key="#Auto_Import" timestamp="1726214615194">
+    <state x="108" y="71" key="new project wizard" timestamp="1738770087099">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="487" y="0" key="#Auto_Import/0.0.1440.920@0.0.1440.920" timestamp="1726214615194" />
-    <state x="526" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1726214736239">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="526" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1726214736239" />
-    <state x="451" y="207" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1721872540812">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="451" y="207" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.920@0.0.1440.920" timestamp="1721872540812" />
-    <state width="1397" height="216" key="GridCell.Tab.0.bottom" timestamp="1727263019074">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="216" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1727263019074" />
-    <state width="1397" height="216" key="GridCell.Tab.0.center" timestamp="1727263019074">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="216" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1727263019074" />
-    <state width="1397" height="216" key="GridCell.Tab.0.left" timestamp="1727263019074">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="216" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1727263019074" />
-    <state width="1397" height="216" key="GridCell.Tab.0.right" timestamp="1727263019074">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="216" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1727263019074" />
-    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1721916909916">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1721916909916" />
-    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1721916909916">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1721916909916" />
-    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1721916909916">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1721916909916" />
-    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1721916909916">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1721916909916" />
-    <state x="518" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1726214605273">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="518" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1726214605273" />
-    <state x="377" y="211" key="run.anything.popup" timestamp="1721877014722">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1721877014722" />
+    <state x="108" y="71" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1738770087099" />
   </component>
 </project>
